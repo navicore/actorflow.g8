@@ -28,7 +28,7 @@ sbt new navicore/actorflow.g8
 
 [g8]: http://www.foundweekends.org/giter8/
 
-## EXTRA CREDIT CHALLENGE
+## CHALLENGE
 
 * Modify the HTTP endpoint to accept a POST that updates the actor
 * Create a second actor that accepts state change events from the first actor and publishes them to Kafka
@@ -36,3 +36,11 @@ sbt new navicore/actorflow.g8
 * Enable the actor to inspect its earlier states via persistence journal queries
 
 One possible solution to the above challenges is [here]()
+
+
+## EXTRA CREDIT CHALLENGE
+
+* Create a single cluster of Akka Actor systems and enable actor sharding to evenly distribute actors across the cluster
+* Enable multiple Akka Streams on multiple nodes consuming from a single Kafka topic with a consumer group balancing the consumption across the cluster
+
+One possible solution to the above extra extra challenges is [here]()
