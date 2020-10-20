@@ -40,7 +40,11 @@ One possible solution to the above challenges is [here]()
 
 ## EXTRA CREDIT CHALLENGE
 
-* Create a single cluster of Akka Actor systems and enable actor sharding to evenly distribute actors across the cluster
-* Enable multiple Akka Streams on multiple nodes consuming from a single Kafka topic with a consumer group balancing the consumption across the cluster
+* Enable proper serialization in messaging and persistence
+* Create a single cluster of multiple Akka Actor systems and enable actor sharding
+* Enable multiple Akka Streams on multiple nodes consuming from a single Kafka topic
+* Enable Kubernetes deployment as a statefulset
+* Enable Kubernetes healthcheck and liveliness probe support
+* Enable Kubernetes Prometheus monitoring leveraging the helthcheck endpoint above
 
 One possible solution to the above extra extra challenges is [here]()
