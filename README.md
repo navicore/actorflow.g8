@@ -1,4 +1,4 @@
-a [g8] template for the most minimal Akka streams ML project
+a [g8] template for the most minimal project of an Akka Stream integrated with an Akka Actor
 ---
 
 # UNDER CONSTRUCTION
