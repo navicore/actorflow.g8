@@ -32,7 +32,7 @@ sbt new navicore/actorflow.g8
 
 * Modify the HTTP endpoint to accept a POST that updates the actor
 * Create a second actor that accepts state change events from the first actor and publishes them to Kafka
-* Make the actor "persistent" via event sourcing using https://doc.akka.io/docs/akka/current/persistence.html
+* Make the actor "persistent" via event sourcing using an Akka Persistence plugin
 * Enable the actor to inspect its earlier states via persistence journal queries
 
 One possible solution to the above challenges is [here]()
