@@ -9,9 +9,9 @@ a [g8] template for a working digital twin starter project consisting of an Akka
 
 A project generator for creating a working project that includes:
 * an [Akka Stream] consuming from [Kafka]
-* a system of [persistent] Akka actors whose state is updated by the Akka stream
-* an [Akka HTTP] REST API endpoint that inspects the Akka actor state via cURL or browser
-* a Kafka producer that writes state change events to Kafka
+* a system of [persistent] [Akka actors] whose state is updated by the [Akka stream]
+* an [Akka HTTP] REST API endpoint that inspects the [Akka actor] state via [cURL] or browser
+* a [Kafka] producer that writes state change events to [Kafka]
 
 ## PREREQ
 
@@ -52,3 +52,6 @@ One possible solution to the above extra extra challenges is [here]()
 [Akka stream]: https://doc.akka.io/docs/akka/current/stream/index.html
 [Akka HTTP]: https://doc.akka.io/docs/akka-http/current/index.html
 [Kafka]: https://kafka.apache.org
+[Akka actors]: https://doc.akka.io/docs/akka/current/actors.html
+[Akka actor]: https://doc.akka.io/docs/akka/current/actors.html
+[cURL]: https://curl.haxx.se/
