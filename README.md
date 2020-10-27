@@ -1,4 +1,4 @@
-a [g8] template for the most minimal project of an Akka Stream integrated with an Akka Actor
+a [g8] template for a working digital twin starter project consisting of an Akka Stream and Akka Actors
 ---
 
 # UNDER CONSTRUCTION
@@ -8,9 +8,10 @@ a [g8] template for the most minimal project of an Akka Stream integrated with a
 # UNDER CONSTRUCTION
 
 A project generator for creating a working project that includes:
-* an Akka Stream with a Kafka consumer source
-* an Akka actor whose state is updated by the Akka stream
-* an Akka HTTP REST API endpoint that inspects the Akka actor state via cURL or browser
+* an [Akka Stream] consuming from [Kafka]
+* a system of [persistent] Akka actors whose state is updated by the Akka stream
+* an [Akka HTTP] REST API endpoint that inspects the Akka actor state via cURL or browser
+* a Kafka producer that writes state change events to Kafka
 
 ## PREREQ
 
@@ -25,9 +26,6 @@ In a terminal shell, enter:
 ```console
 sbt new navicore/actorflow.g8 
 ```
-
-[g8]: http://www.foundweekends.org/giter8/
-
 ## CHALLENGE
 
 * Modify the HTTP endpoint to accept a POST that updates the actor
@@ -48,3 +46,9 @@ One possible solution to the above challenges is [here]()
 * Enable Kubernetes Prometheus monitoring leveraging the helthcheck endpoint above
 
 One possible solution to the above extra extra challenges is [here]()
+
+[perstent] https://doc.akka.io/docs/akka/current/persistence.html
+[g8]: http://www.foundweekends.org/giter8
+[Akka stream] https://doc.akka.io/docs/akka/current/stream/index.html
+[Akka HTTP] https://doc.akka.io/docs/akka-http/current/index.html
+[Kafka] https://kafka.apache.org
