@@ -64,7 +64,7 @@ One possible solution to the above challenges is [here]()
 
 One possible solution to the above extra extra challenges is [here]()
 
-[perstent]: https://doc.akka.io/docs/akka/current/persistence.html
+[persistent]: https://doc.akka.io/docs/akka/current/persistence.html
 [g8]: http://www.foundweekends.org/giter8
 [Akka stream]: https://doc.akka.io/docs/akka/current/stream/index.html
 [Akka HTTP]: https://doc.akka.io/docs/akka-http/current/index.html
