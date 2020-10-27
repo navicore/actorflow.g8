@@ -15,7 +15,7 @@ A project generator for creating a working project that includes:
 
 ## PREREQUISITE
 
-  * sbt >= 13.16
+  * sbt >= 1.4.0
 
 ## BUILDING
 
