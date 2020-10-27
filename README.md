@@ -11,7 +11,7 @@ A project generator for creating a working project that includes:
 * an [Akka Stream] consuming from [Kafka]
 * a system of [persistent] [Akka actors] whose state is updated by the [Akka stream]
 * an [Akka HTTP] REST API endpoint that inspects the [Akka actor] state via [cURL] or browser
-* a [Kafka] producer that writes state change events to [Kafka]
+* a [Kafka] producer that writes state change assessment events to [Kafka]
 
 ## PREREQUISITE
 
