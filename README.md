@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/actorflow.g8](https://git.navicore.tech/navicore/actorflow.g8).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 a [g8] template for a working digital twin starter project consisting of an Akka Stream and Akka Actors
 ---
 
